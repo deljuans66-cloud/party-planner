@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+#root {
+  display: flex;
+}
+
+.party-list {
+  width: 200px;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.party-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.party-list li {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.party-list li:hover {
+  background-color: #eee;
+}
+
+.party-list li.selected {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.party-details {
+  padding-left: 20px;
+}
